@@ -12,6 +12,7 @@ export const FormContacts = () => {
 
     resetForm();
   };
+  
   return (
     <Formik initialValues={initialValues} onSubmit={handleSubmit}>
       <Form>
